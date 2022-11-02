@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/ngobrolIcon"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/ngobrolkuy_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <LinearLayout
+        android:id="@+id/ngobrolKuyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/ngobrolIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngobrol"
+            android:textSize="16pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Kuy"
+            android:textSize="16pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/pink"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/inputList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/ngobrolKuyTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Username"
+            android:textSize="12pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukkan username Anda"
+                android:textSize="8pt"
+                android:textColor="@color/light_gray"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Password"
+            android:textSize="12pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukkan password Anda"
+                android:textSize="8pt"
+                android:textColor="@color/light_gray"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnLupa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="Lupa password?"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/btnRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun?"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:textColor="@color/white"
+        android:layout_margin="32dp"
+        android:background="@drawable/rounded_outline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

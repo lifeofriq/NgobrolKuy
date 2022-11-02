@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="16pt"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <LinearLayout
+        android:id="@+id/inputList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/registerTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Username"
+            android:textSize="12pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukkan username Anda"
+                android:textSize="8pt"
+                android:textColor="@color/light_gray"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Email"
+            android:textSize="12pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukkan email Anda"
+                android:textSize="8pt"
+                android:textColor="@color/light_gray"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Password"
+            android:textSize="12pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukkan password Anda"
+                android:textSize="8pt"
+                android:textColor="@color/light_gray"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Konfirmasi Password"
+            android:textSize="12pt"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukkan lagi password Anda"
+                android:textSize="8pt"
+                android:textColor="@color/light_gray"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="32dp"
+        android:backgroundTint="@color/pink"
+        app:layout_constraintTop_toBottomOf="@id/inputList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp">
+
+
+    <Button
+        android:id="@+id/btnRegis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="561dp"
+        android:text="Register"/>
+
+    <Button
+        android:id="@+id/btnLogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun?"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

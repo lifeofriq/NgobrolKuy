@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".HomeChat">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngobrol"
+        android:textSize="16pt"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:text="Kuy"
+        android:textColor="@color/pink"
+        android:textSize="16pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:src="@drawable/profile_placeholder"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum dolor sit amet"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/btnPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXX"
+        android:textColor="@color/white"
+        android:textSize="30"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:src="@drawable/profile_placeholder"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum dolor sit amet"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXX"
+        android:textColor="@color/white"
+        android:textSize="30"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:src="@drawable/profile_placeholder"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum dolor sit amet"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXX"
+        android:textColor="@color/white"
+        android:textSize="30"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/Keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="667dp" />;
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="16dp"></Button>
+
+
+</LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
